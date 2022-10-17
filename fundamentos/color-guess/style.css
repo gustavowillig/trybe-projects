@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+}
+
+.ball {
+  width: 70px;
+  height: 70px;
+  border: black solid 1px;
+  display: inline-block;
+  border-radius: 70px;
+  margin-top: 10px;
+}
+
+#rgb-color , #score , #answer , #reset-game {
+  margin-top: 10px;
+}

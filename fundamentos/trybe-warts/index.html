@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trybewarts</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg" alt="Logo Trybewarts">
+        <h1 id="trybewarts-header-title">Trybewarts</h1>
+        <form action="" method="get" class="trybewarts-login">
+            <label for="email"></label>
+            <input type="email" name="email" id="email" placeholder="Email" class="form-header">
+            <label for="password"></label>
+            <input type="password" name="password" id="password" placeholder="Senha" class="form-header">
+            <button id="btn-entrar" class="form-header btn btn-purple">Entrar</button>
+            <i class="large material-icons">menu</i>
+        </form>
+    </header>
+    <!-- A tag main aqui em baixo -->
+    <div id="menu-invisivel">
+      <input type="email" name="email" id="emailbackup" placeholder="Email" class="form-header">
+      <input type="password" name="password" id="passwordbackup" placeholder="Senha" class="form-header">
+      <button id="btn-entrarbackup" class="form-header btn btn-purple">Entrar</button>
+    </div>
+    <main class="main">
+      <!-- O formulário principal -->
+      <form action="" id="evaluation-form">
+        <h2>Formulário de Avaliação</h2>
+        <!-- Requisito 8 - inputs iniciais do formulário -->
+        <!-- Requisito 10 - criei uma section que pega os inputs do nome e sobrenome -->
+        <section id="nome-completo">
+          <input type="text" class="dados-iniciais" id="input-name" placeholder="Nome">
+          <input type="text" class="dados-iniciais" id="input-lastname" placeholder="Sobrenome">
+        </section>
+        <section id="email-casa" class="dados-iniciais">
+          <!-- Requisito 11 - criei uma section que pega o email e a casa -->
+          <input type="email" id="input-email" placeholder="Email">
+          <!-- Requisito 9 - seleção da escola -->
+          <label for="house">Casa:</label>
+          <select name="house" id="house">
+            <option value="Gitnória" id="gitnoria-house">Gitnória</option>
+            <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+            <option value="Corvinode" id="corvinode-house">Corvinode</option>
+            <option value="Pytherina" id="pytherina-house">Pytherina</option>
+          </select>
+        </section>
+        <!-- Requisito 12 - seleção da familia -->
+        <section id="family-section">
+            <!-- Label com a pergunta -->
+            <label id="label-family" for="family">Qual sua família?</label><br>
+            <!-- Opção Frontend com label para melhorar experiência -->
+            <input type="radio" name="family" id="family-frontend" value="Frontend">
+            <label for="family-frontend">Família Frontend</label><br>
+            <!-- Opção Backend com label para melhorar experiência -->
+            <input type="radio" name="family" id="family-backend" value="Backend">
+            <label for="family-backend">Família Backend</label><br>
+            <!-- Opção FullStack com label para melhorar experiência -->
+            <input type="radio" name="family" id="family-fullstack" value="FullStack">
+            <label for="family-fullstack">Família FullStack</label><br>
+        </section>
+        <!-- Requisito 13 - conteúdos -->
+        <section id="conteudos">
+            <!-- Label com a pergunta -->
+            <label id="label-content">Qual conteúdo você está com mais vontade de aprender?</label><br>
+            <!-- Seleção HOFS com label para melhorar experiência -->
+            <input type="checkbox" class="subject" id="subject-hofs" value="HoFs">
+            <label for="subject-hofs">HoFs</label><br>
+            <!-- Seleção Jest com label para melhorar experiência -->
+            <input type="checkbox" class="subject" id="subject-jest" value="Jest">
+            <label for="subject-jest">Jest</label><br>
+            <!-- Seleção Promisses com label para melhorar experiência -->
+            <input type="checkbox" class="subject" id="subject-promises" value="Promises">
+            <label for="subject-promises">Promises</label><br>
+            <!-- Seleção React com label para melhorar experiência -->
+            <input type="checkbox" class="subject" id="subject-react" value="React">
+            <label for="subject-react">React</label><br>
+            <!-- Seleção SQL com label para melhorar experiência -->
+            <input type="checkbox" class="subject" id="subject-sql" value="SQL">
+            <label for="subject-sql">SQL</label><br>
+            <!-- Seleção Pyton com label para melhorar experiência -->
+            <input type="checkbox" class="subject" id="subject-python" value="Python">
+            <label for="subject-python">Python</label><br>
+        </section>
+          <!-- Requisito 14 - adicionei as notas e seus devidos inputs radios -->
+        <section id="nota-trybewarts">
+          <label for="" id="label-rate">Como você avalia a Trybewarts?</label>
+          <label for="nota-1"><input type="radio" name="rate" id="nota-1" value="1">1</label>
+          <label for="nota-2"><input type="radio" name="rate" id="nota-2" value="2">2</label>
+          <label for="nota-3"><input type="radio" name="rate" id="nota-3" value="3">3</label>
+          <label for="nota-4"><input type="radio" name="rate" id="nota-4" value="4">4</label>
+          <label for="nota-5"><input type="radio" name="rate" id="nota-5" value="5">5</label>
+          <label for="nota-6"><input type="radio" name="rate" id="nota-6" value="6">6</label>
+          <label for="nota-7"><input type="radio" name="rate" id="nota-7" value="7">7</label>
+          <label for="nota-8"><input type="radio" name="rate" id="nota-8" value="8">8</label>
+          <label for="nota-9"><input type="radio" name="rate" id="nota-9" value="9">9</label>
+          <label for="nota-10"><input type="radio" name="rate" id="nota-10" value="10">10</label>
+        </section>
+        <!-- Requisito 15 - textarea com comentários -->
+        <label for="comentario" class="textarea form-control">Deixe seu comentário: </label>
+        <textarea name="comentario" id="textarea" cols="30" rows="10" maxlength="500" spellcheck="true" contenteditable="true"></textarea>
+        <!-- Requisito 21 - contador do textarea -->
+        <div id="counter">500</div>
+        <!-- Requisito 16 - checkbox feito pedindo agreement -->
+        <label for="agreement" id="label-infos">Você concorda com o uso das informações acima?
+          <input type="checkbox" name="agreement" id="agreement">
+        </label>
+        <!-- Requisito 17 - Button enviar formulário -->
+        <button type="submit" id="submit-btn" class="btn btn-purple">Enviar</button>
+      </form>
+      <!-- A logo colorida está em baixo -->
+      <img src="images/trybewarts-colored.svg" id="trybewarts-forms-logo" alt="">
+    </main>
+    <footer class="footer">Direitos reservados à Trybewarts©</footer>
+    <script src="script.js"></script>
+</body>
+</html>
