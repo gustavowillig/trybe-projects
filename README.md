@@ -12,28 +12,28 @@ Você pode conferir minha trilha de aprendizado [Aqui!](https://github.com/gusta
 
 ### Sessão 3 - Introdução ao HTML & CSS
 
-- [x] - Projeto - [Lessons Learned]()
+- [x] - Projeto - [Lessons Learned](https://github.com/gustavowillig/trybe-projects/tree/master/fundamentos/lessons-learned)
 
 ### Sessão 4 - Introdução à JavaScript 
 
-- [x] - Projeto - [Playground Functions]()
+- [x] - Projeto - [Playground Functions](https://github.com/gustavowillig/trybe-projects/tree/master/fundamentos/playground-functions)
 
 ### Sessão 5 - JavaScript - DOM, Eventos e Web Storage
 
-- [x] - Projeto - [Pixels Art]()
-- [x] - Projeto - [To Do List]()
-- [x] - Projeto - [Meme Generator]()
-- [x] - Projeto - [Collor Guess]()
+- [x] - Projeto - [Pixels Art](https://github.com/gustavowillig/trybe-projects/tree/master/fundamentos/pixels-art)
+- [x] - Projeto - [To Do List](https://github.com/gustavowillig/trybe-projects/tree/master/fundamentos/to-do-list)
+- [x] - Projeto - [Meme Generator](https://github.com/gustavowillig/trybe-projects/tree/master/fundamentos/meme-generator)
+- [x] - Projeto - [Collor Guess](https://github.com/gustavowillig/trybe-projects/tree/master/fundamentos/color-guess)
 
 ### Sessão 6 - HTML & CSS: Forms, Flexbox e Responsivo
 
-- [x] - Projeto - [Trybe Warts]() 
+- [x] - Projeto - [Trybe Warts](https://github.com/gustavowillig/trybe-projects/tree/master/fundamentos/trybe-warts) 
 
 
 ### Sessão 7 - JavaScript ES6 & Testes Unitários
 
-- [x] - Projeto - [JavaScript ES6 Testes Unitários]() 
+- [x] - Projeto - [JavaScript ES6 Testes Unitários](https://github.com/gustavowillig/trybe-projects/tree/master/fundamentos/testes-unit%C3%A1rios) 
 
 ### Sessão 8 - JavaScript ES6 - Higer Order Functions
 
-- [x] - Projeto - [Zoo Functions]()
+- [x] - Projeto - [Zoo Functions](https://github.com/gustavowillig/trybe-projects/tree/master/fundamentos/zoo-functions)
